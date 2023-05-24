@@ -1,0 +1,65 @@
+.navbar{
+  padding: 15px 0 !important;
+  position: relative;
+}
+
+.logo{
+  width: 160px;
+}
+
+.navLink{
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: 25px !important;
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #000 !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.navLink:hover{
+  color: #0C54A0 !important;
+}
+
+.navLinkContacts{
+  composes: navLink;
+  padding: 0.5rem;
+  position: absolute;
+  right: 50px;
+}
+
+.dropdown{
+  composes: dropdown-menu from '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 80%;
+  width: 130%;
+  display: none;
+  transform: translateX(-10px);
+}
+
+.dropdownToggle{
+  composes: navLink;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdownToggle:hover .dropdown{
+  display: block;
+}
+
+.dropdown .navLink{
+  padding: 5px 10px;
+}
+
+.dropdownItem{
+  composes: dropdown-item from '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+  padding: 0;
+}
+
+.dropdownItem:active{
+  background: #fff;
+}

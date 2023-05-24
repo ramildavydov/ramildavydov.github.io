@@ -1,0 +1,43 @@
+main {
+  padding: 50px 0;
+}
+
+ul {
+  list-style-type: disc;
+  color: #0c54a0;
+}
+
+ul span {
+  color: #000;
+}
+
+.instruction strong {
+  color: #0c54a0;
+  /* color: #2600ff; */
+}
+
+.instruction em {
+  color: #0c54a0;
+}
+
+.instruction td {
+  border: 1px solid #000 !important;
+  padding: 3px 3px 3px 5px;
+}
+
+.instruction figure {
+  overflow-x: auto;
+}
+
+.marketing h3 {
+  color: #0c54a0;
+  font-weight: bold;
+}
+
+.distribution p {
+  font-size: 24px;
+}
+
+.registration p {
+  font-size: 24px;
+}
