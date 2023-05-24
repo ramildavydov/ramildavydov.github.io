@@ -40,7 +40,7 @@ const MainMenu = () => {
           </NavItem>
 
           <NavItem className={Styles.dropdownToggle}>
-            Информация
+            Информация.
             <ul className={Styles.dropdown}>
               <li className={Styles.dropdownItem}>
                 <NavLink to="for-doctors" className={Styles.navLink}>
