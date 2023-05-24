@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.74683c3f.css",
-    "main.js": "/static/js/main.9541ef45.js",
+    "main.js": "/static/js/main.e2ab813a.js",
     "static/media/evolerin.png": "/static/media/evolerin.c281ee06e2caaca76fb0.png",
     "static/media/pantogam_caps.png": "/static/media/pantogam_caps.86c679178fd03291f427.png",
     "static/media/upsarin.png": "/static/media/upsarin.4467d3dec683e8e52bc2.png",
@@ -66,10 +66,10 @@
     "static/media/octapharma.jpg": "/static/media/octapharma.2e2db17339072ebf3d24.jpg",
     "index.html": "/index.html",
     "main.74683c3f.css.map": "/static/css/main.74683c3f.css.map",
-    "main.9541ef45.js.map": "/static/js/main.9541ef45.js.map"
+    "main.e2ab813a.js.map": "/static/js/main.e2ab813a.js.map"
   },
   "entrypoints": [
     "static/css/main.74683c3f.css",
-    "static/js/main.9541ef45.js"
+    "static/js/main.e2ab813a.js"
   ]
 }
